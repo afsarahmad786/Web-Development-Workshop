@@ -1,0 +1,15 @@
+- Create a Registration (Signup) form.
+- It should have fields:
+
+  Personal Info -----------
+  - Name
+  - Email
+  - Phone
+  - DOB
+
+  Login Info -----------
+  - username
+  - password
+  - confirm password
+
+  Submit

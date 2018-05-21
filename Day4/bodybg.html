@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Body BG</title>
+  </head>
+  <body>
+    <select id="bg" onchange="changeBG()">
+      <option>blue</option>
+      <option>red</option>
+      <option>green</option>
+      <option>gray</option>
+    </select>
+
+    <!--<button onclick="changeBG()">Click Me!</button>-->
+
+    <script type="text/javascript">
+      function changeBG() {
+          var bg = document.getElementById('bg');
+
+          document.body.style.backgroundColor = bg.value;
+      }
+
+      changeBG();
+    </script>
+  </body>
+</html>

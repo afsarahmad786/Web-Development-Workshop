@@ -1,0 +1,13 @@
+#myDiv {
+  height: 300px;
+  width: 400px;
+  border: 1px solid black;
+}
+
+.redbg {
+  background: red;
+}
+
+.bluebg {
+  background: blue;
+}

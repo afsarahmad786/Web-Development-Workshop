@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Heading Change</title>
+  </head>
+
+  <body>
+    <h1 id="myHeading">Hello User!</h1>
+    <input
+      type="text"
+      id="myText"
+      placeholder="Enter Your Name!"
+      onkeyup="changeHeading()"
+      autofocus
+    />
+    <!--<button onclick="changeHeading()">Click Me!</button>-->
+
+    <script type="text/javascript">
+      function changeHeading() {
+        var text = document.getElementById('myText');
+        var heading = document.getElementById('myHeading');
+
+        heading.innerHTML = "Hello " + text.value;
+      }
+    </script>
+  </body>
+</html>

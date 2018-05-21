@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Document</title>
+  </head>
+  <body>
+
+    <h1 id="myHeading">DOM</h1>
+
+    <input type="text" id="myText" value="ABCD"/>
+    <button onclick="display()">Click Me!</button>
+
+    <script type="text/javascript">
+      function display() {
+        var text = document.getElementById('myText');
+        var heading = document.getElementById('myHeading');
+
+        console.log(text.value);
+        console.log(heading.innerHTML);
+      }
+    </script>
+
+  </body>
+</html>

@@ -1,0 +1,34 @@
+body {
+  background: #94b8ff;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+.container {
+  width: 540px;
+  margin: 0 auto;
+}
+
+#myContent {
+  background: #fff;
+  padding: 10px 16px;
+  max-height: 180px;
+  overflow: hidden;
+  transition: max-height 0.4s;
+}
+
+.open {
+  max-height: 500px !important;
+}
+
+button.primary {
+  width: 100%;
+  height: 40px;
+  border: none;
+  background: #4d00dd;
+  color: white;
+  cursor: pointer;
+}

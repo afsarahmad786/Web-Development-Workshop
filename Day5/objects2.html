@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Objects 2</title>
+  </head>
+  <body>
+    <script type="text/javascript">
+      var Student = function (name, email) {
+        this.name = name;
+        this.email = email;
+
+        this.showFullInfo = function () {
+          console.log(this.name, this.email);
+        }
+      }
+
+      var student1 = new Student('Ravi', 'ravi@gmail.com');
+      var student2 = new Student('Rohit', 'rohit@gmail.com');
+
+      student2.showFullInfo();
+      student1.showFullInfo();
+    </script>
+  </body>
+</html>

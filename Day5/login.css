@@ -1,0 +1,39 @@
+body {
+  background: #c8f098;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  border: 1px solid black;
+  height: 240px;
+  width: 200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.form-group {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.form-group input {
+  width: 100%;
+}
+
+.primary {
+  width: 100px;
+  height: 30px;
+  border: none;
+  background: #3f67a2;
+  cursor: pointer;
+}
+
+.primary:hover {
+  background: #4d80cc;
+}
+
+.error {
+  font-size: 8px;
+  color: red;
+  visibility: hidden;
+}

@@ -1,0 +1,25 @@
+#board {
+  margin-left: 35%;
+  margin-top: 120px;
+  display: table;
+}
+
+.col {
+  display: table-cell;
+  height: 100px;
+  width: 100px;
+  border: 1px solid black;
+  display: inline-block;
+  vertical-align: middle;
+  text-align: center;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+table td {
+  height: 100px;
+  width: 100px;
+  text-align: center;
+}

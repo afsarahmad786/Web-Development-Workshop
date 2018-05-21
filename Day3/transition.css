@@ -1,0 +1,25 @@
+.parent {
+  border: 1px solid black;
+  height: 300px;
+  width: 300px;
+  background: red;
+  /*transition: all 0.5s;*/
+  margin: 0 auto;
+  display: table;
+}
+
+.child {
+  display: table-cell;
+  vertical-align: middle;
+  font-size: 30px;
+  color: white;
+  font-family: Verdana, sans-serif;
+  text-align: center;
+  /*margin-top: 134px;*/
+}
+
+/*.box:hover {
+  width: 600px;
+  height: 600px;
+  background: green;
+}*/

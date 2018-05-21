@@ -1,0 +1,106 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+nav ul {
+  margin: 0;
+  margin-left: 80px;
+}
+
+nav ul li {
+  display: inline-block;
+  height: 60px;
+}
+
+nav ul li a {
+  color: #ffffff;
+  text-decoration: none;
+  padding-right: 10px;
+  padding-left: 10px;
+  line-height: 60px;
+  display: inline-block;
+  transition: all 0.4s;
+}
+
+nav ul li a:hover {
+  background: gray;
+}
+
+nav {
+  background: #000000;
+}
+
+.logo {
+  float: left;
+  margin-left: 20px;
+  margin-top: 10px;
+  float: left;
+}
+
+.logo img {
+  height: 80px;
+  z-index: 99;
+  position: relative;
+}
+
+.banner img {
+  width: 100%;
+  margin-top: -36px;
+}
+
+h1 {
+  text-align: center;
+  background-color: #eceff3;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-top: -4px;
+}
+
+section {
+  width: 80%;
+  margin: 0 auto;
+  letter-spacing: 2px;
+  line-height: 20px;
+}
+
+section img {
+  width: 400px;
+  margin: 20px;
+}
+
+.img-left {
+  float: left;
+}
+
+.img-right {
+  float: right;
+}
+
+footer {
+  background: #eceff3;
+  line-height: 60px;
+  text-align: center;
+}
+input[type=text] {
+    width: 130px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('searchicon.png');
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+    width: 90%;
+}
+
+input[type=text]:focus {
+    width: 100%;
+}
+.sear{
+  height: 20px;
+}

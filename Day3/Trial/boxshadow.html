@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style> 
+div {
+    width: 70%;
+    height: 100px;
+    background-color: yellow;
+    transition: all 0.9s;
+}
+
+div:after {
+	content: 'Test';
+   position: absolute;
+ 
+   z-index: -1; /* hide shadow behind image */
+ 
+   /* The Shadow */
+   -webkit-box-shadow: 0 15px 20px black;
+   -moz-box-shadow: 0 15px 20px black;
+   box-shadow: 0 15px 20px black;                
+ 
+   width: 60%; 
+   left: 5%; /* one half of the remaining 30% (see width above) */
+ 
+   height: 100px;
+   
+   opacity: 0.4;
+    
+}
+
+div:hover {
+	width: 100%;
+    background-color: red;
+}
+</style>
+</head>
+<body>
+
+<div></div>
+<div></div>
+
+</body>
+</html>
+

@@ -1,0 +1,24 @@
+.box {
+  display: inline-block;
+}
+
+#parent {
+  height: 200px;
+  width: 200px;
+  background: green;
+  display: none;
+  /*margin-left: 100px;
+  margin-right: 100px;
+  z-index: -2;*/
+}
+
+#child {
+  height: 100px;
+  width: 100px;
+  background: red;
+  /*left: 50px;
+  top: 50px;*/
+  /*position: absolute;
+  z-index: -3;*/
+
+}

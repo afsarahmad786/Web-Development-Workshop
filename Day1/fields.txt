@@ -1,0 +1,14 @@
+- First Name
+- Last Name
+- DOB
+- Email
+- Phone
+- Address
+- City
+- Gender
+- Age
+- Profile pic
+
+- User Name
+- Password
+- Confirm Password

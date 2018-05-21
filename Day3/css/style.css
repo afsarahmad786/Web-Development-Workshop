@@ -1,0 +1,31 @@
+#heading1, #p1 {
+  font-family: serif;
+  font-size: 36px;
+}
+
+#heading2, #p2 {
+  font-family: Verdana, Arial, sans-serif;
+  font-size: 14px;
+}
+
+#p2 {
+  border: 1px solid black;
+  width: 50%;
+  /*padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 40px;
+  padding-bottom: 40px;*/
+  padding: 40px 40px 40px 40px;
+  margin: 0 auto;
+
+}
+
+.box {
+  border: 1px solid black;
+  height: 200px;
+  /*margin-left: 100px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-right: 100px;*/
+  margin: 100px 100px 100px 100px;
+}

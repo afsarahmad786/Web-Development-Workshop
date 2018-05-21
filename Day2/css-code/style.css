@@ -1,0 +1,25 @@
+h1 {
+  background-color: black;
+  color: white;
+}
+
+.box {
+  height: 200px;
+  width: 200px;
+  border: 1px solid black;
+  display: inline-block;
+  border-radius: 100px;
+}
+
+#div1 {
+  background-color: red;
+}
+
+#div2 {
+  background-color: green;
+  float: left;
+}
+
+#div3 {
+  background-color: blue;
+}

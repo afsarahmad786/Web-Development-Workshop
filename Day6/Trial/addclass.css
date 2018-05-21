@@ -1,0 +1,37 @@
+body {
+  background: #94b8ff;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+.container {
+  width: 540px;
+  margin: 0 auto;
+}
+
+#contents {
+  background: #effcff;
+  padding: 10px 20px;
+  line-height: 20px;
+  letter-spacing: 1px;
+  max-height: 220px;
+  overflow: hidden;
+  transition: max-height 0.4s;
+}
+
+.open {
+  max-height: 460px!important;
+}
+
+button.primary {
+  background: #4d00dd;
+  border: none;
+  margin-top: 10px;
+  padding: 14px;
+  color: white;
+  width: 100%;
+  cursor: pointer;
+}

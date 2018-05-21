@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Objects</title>
+  </head>
+
+  <body>
+    <script type="text/javascript">
+      var student = {
+        firstName: 'ABC',
+        lastName: 'XYZ',
+        email: 'abc.xyz@gmail.com',
+
+        showFullName: function () {
+          console.log(this.firstName + ' ' + this.lastName);
+        },
+
+        showFullInfo: function () {
+          console.log(this.firstName, this.lastName, this.email);
+        }
+      };
+
+      student.showFullName();
+      student.showFullInfo();
+      // var say_hello = function () {
+      //   alert('hello');
+      // }
+      //
+      // say_hello();
+    </script>
+  </body>
+</html>
